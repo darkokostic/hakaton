@@ -2,6 +2,9 @@
 .header-logo {
   height: 40px;
 }
+.hideButton {
+  display: none;
+}
 /* SideMenu */
 .sideMenu {
 	text-align: center;
@@ -10,4 +13,25 @@
   height: 70px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.sideMenuRight .item {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+.sideMenuRight a {
+  font-size: 22px;
+}
+.sideMenuRight .rightImage {
+  height: 40px;
+  float: left;
+}
+/* Lista smerova */
+.listaSmerova img {
+  vertical-align: middle;
+}
+.listaSmerova a {
+  font-size: 20px;
 }

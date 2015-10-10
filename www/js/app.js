@@ -48,6 +48,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'KontaktCtrl'
   })
 
+  .state('osnovne', {
+    url: '/osnovne',
+    templateUrl: 'templates/osnovne.html',
+    controller: 'OsnovneCtrl'
+  })
+
+  .state('specijalisticke', {
+    url: '/specijalisticke',
+    templateUrl: 'templates/specijalisticke.html',
+    controller: 'SpecijalistickeCtrl'
+  })
+
   .state('o-skoli', {
     url: '/o-skoli',
     templateUrl: 'templates/o-skoli.html',
