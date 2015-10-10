@@ -1,1 +1,13 @@
-/* Empty. Add your own CSS if you like */
+/* Header */
+.header-logo {
+  height: 40px;
+}
+/* SideMenu */
+.sideMenu {
+	text-align: center;
+}
+.sideMenu img {
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
