@@ -148,9 +148,32 @@
   width: 70%;
   max-width: 500px;
 }
-.upisTekst {
 
+/* Kontakt */
+.kontakt button {
+  float: left;
 }
+.kontakt p {
+  float: left;
+  font-family: LatoRegular;
+  margin-top: 17px;
+}
+.kontaktTelefon1 button {
+  float: left;
+}
+.kontaktTelefon2 button {
+  float: left;
+}
+.kontaktTelefon3 button {
+  float: left;
+}
+.kontatTitle {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: LatoRegular;;
+  text-align: center;
+}
+
 /* Studije Single view */
 .studijeSingle h2 {
   padding-bottom: 20px;
