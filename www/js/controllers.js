@@ -12,7 +12,7 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('PocetnaCtrl', function($scope, $ionicLoading) {
+.controller('PocetnaCtrl', function($scope, $ionicLoading, $http) {
   $scope.show = function() {
     $ionicLoading.show({
       template: 'Учитавање обавештења...',
@@ -23,6 +23,18 @@ angular.module('starter.controllers', [])
     $ionicLoading.hide();
   };
   //Pocetna controller
+  $http.get('http://www.vtsnis.edu.rs/').success(function (data) {
+    //Extract text using jquery
+    $(function(){
+      var $str = $(data);
+      var htmlData = $str.find("td[colspan$='3']").text();
+      var obavestenja = htmlData.replace(/\s\s\s+/g, ' ');
+      console.log(obavestenja);
+      $scope.sajt = obavestenja.replace(/О Б А В Е Ш Т Е Њ Е/g , '\n\nО Б А В Е Ш Т Е Њ Е\n\n').replace(/УПОЗОРЕЊЕ/g , '\n\nУПОЗОРЕЊЕ\n\n').replace(/КОНКУРС/g , '\n\nКОНКУРС\n\n');
+    })
+    //END OF Extract
+
+  });
 })
 
 .controller('OSkoliCtrl', function($scope, $stateParams, $ionicSideMenuDelegate) {

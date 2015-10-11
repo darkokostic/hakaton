@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
@@ -14,6 +13,7 @@
     -->
 
     <!-- ionic/angularjs js -->
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/ionic/js/ionic-angular.min.js"></script>
     <script src="lib/angular-animate/angular-animate.min.js"></script>
@@ -25,6 +25,7 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
     <script src="js/controllers.js"></script>
   </head>
 
@@ -59,6 +60,7 @@
       <ion-side-menu class="sideMenu sideMenuRight" side="right" enable-menu-with-back-views="false" >
         <ion-list>
           <div class="item item-divider"><h1>СМЕРОВИ</h1></div>
+          <br/>
           <a href="#/osnovne" class="item"><img src="file:///android_asset/www/img/books.png" class="rightImage"> Основне струковне студије</a>
           <a href="#/specijalisticke" class="item"><img src="file:///android_asset/www/img/graduation_hat.png" class="rightImage"> Специјалистичке струковне студије</a>
         </ion-list>
