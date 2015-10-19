@@ -53,9 +53,17 @@ angular.module('starter.controllers', [])
   //Raspored Nastave controller
 })
 
-.controller('KalendarRadaCtrl', function($scope, $ionicSideMenuDelegate) {
+.controller('KalendarRadaCtrl', function($scope, VTSNisFactory, $ionicSideMenuDelegate) {
   angular.element(document.querySelector('#smeroviBtn')).addClass('hideButton');
   $ionicSideMenuDelegate.toggleLeft();
+
+  VTSNisFactory.getObject().then(function(response){
+      $scope.meseci = response.Kalendar.Meseci;
+      $scope.legenda = response.Kalendar.Legenda;
+      $scope.ispitni_rokovi = response.Kalendar.Ispitni_rokovi;
+  })
+
+
   //Kalendar Rada controller
 })
 

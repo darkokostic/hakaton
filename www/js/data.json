@@ -1,0 +1,67 @@
+{
+  "Kalendar":
+      {
+        "Meseci": [
+          {
+            "name": "Januar",
+            "url": "../img/kalendar/januar.png"
+          },
+          {
+            "name": "Februar",
+            "url": "../img/kalendar/februar.png"
+          },
+          {
+            "name": "Mart",
+            "url": "../img/kalendar/mart.png"
+          },
+          {
+            "name": "April",
+            "url": "../img/kalendar/april.png"
+          },
+          {
+            "name": "Maj",
+            "url": "../img/kalendar/maj.png"
+          },
+          {
+            "name": "Jun",
+            "url": "../img/kalendar/jun.png"
+          },
+          {
+            "name": "Jul",
+            "url": "../img/kalendar/jul.png"
+          },
+          {
+            "name": "Avgust",
+            "url": "../img/kalendar/avgust.png"
+          },
+          {
+            "name": "Septembar",
+            "url": "../img/kalendar/septembar.png"
+          },
+          {
+            "name": "Oktobar",
+            "url": "../img/kalendar/oktobar.png"
+          },
+          {
+            "name": "Novembar",
+            "url": "../img/kalendar/novembar.png"
+          },
+          {
+            "name": "Decembar",
+            "url": "../img/kalendar/decembar.png"
+          }
+        ],
+        "Legenda": [
+          {
+            "name": "Legenda",
+            "url": "../img/kalendar/legenda.png"
+          }
+        ],
+        "Ispitni_rokovi": [
+          {
+            "name": "Ispitni rokovi",
+            "url": "../img/kalendar/ispitni_rokovi.png"
+          }
+        ]
+      }
+  }
