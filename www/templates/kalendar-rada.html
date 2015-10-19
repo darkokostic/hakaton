@@ -10,9 +10,11 @@
                          padding-top:55%">
          </div>
    </div>
+   <br/>
    <div>
-         <div collection-repeat="legend in legenda track by $index" class="col-33">
-             <div style="    background-image:url({{legend.url}});
+         <div ng-repeat="legend in legenda track by $index" class="col-33">
+             <div style="    float:left;
+                              background-image:url({{legend.url}});
                                background-repeat:no-repeat;
                                background-size:contain;
                                width:100%;
@@ -20,7 +22,7 @@
                                padding-top:55%">
                </div>
          </div>
-         <div collection-repeat="ispitni_rok in ispitni_rokovi track by $index" class="col-75 col-offset-25">
+         <div ng-repeat="ispitni_rok in ispitni_rokovi track by $index" class="col-75 col-offset-25">
              <div style="    background-image:url({{ispitni_rok.url}});
                                background-repeat:no-repeat;
                                background-size:contain;
