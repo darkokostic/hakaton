@@ -66,6 +66,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'StudijeSingleCtrl'
   })
 
+  .state('specijalisticke-single', {
+    url: '/specijalisticke-single/:smerID',
+    templateUrl: 'templates/specijalisticke-single.html',
+    controller: 'SpecijalistickeSingleCtrl'
+  })
+
   .state('o-skoli', {
     url: '/o-skoli',
     templateUrl: 'templates/o-skoli.html',
