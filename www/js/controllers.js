@@ -193,3 +193,65 @@ angular.module('starter.controllers', [])
   $scope.nazivSmera = nazivSmera;
   $scope.opisSmera = opisSmera;
 })
+
+.controller("RasporedSingleCtrl", function ($scope, $stateParams) {
+  var imgUrl = '';
+  switch($stateParams.idSmer) {
+    case 'ii1':
+      imgUrl = '../img/rasporedSlike/industrijskoInzenjerstvo/PrvaGodina.png';
+      break;
+    case 'ii2':
+      imgUrl = '../img/rasporedSlike/industrijskoInzenjerstvo/DrugaGodina.png';
+      break;
+    case 'ii3':
+      imgUrl = '../img/rasporedSlike/industrijskoInzenjerstvo/TrecaGodina.png';
+      break;
+    case 'ds1':
+      imgUrl = '../img/rasporedSlike/drumskiSaobracaj/PrvaGodina.png';
+      break;
+    case 'ds2':
+      imgUrl = '../img/rasporedSlike/drumskiSaobracaj/DrugaGodina.png';
+      break;
+    case 'ds3':
+      imgUrl = '../img/rasporedSlike/drumskiSaobracaj/TrecaGodina.png';
+      break;
+    case 'kt1':
+      imgUrl = '../img/rasporedSlike/komunikacioneTehnologije/PrvaGodina.png';
+      break;
+    case 'kt2':
+      imgUrl = '../img/rasporedSlike/komunikacioneTehnologije/DrugaGodina.png';
+      break;
+    case 'kt3':
+      imgUrl = '../img/rasporedSlike/komunikacioneTehnologije/TrecaGodina.png';
+      break;
+    case 'srt1':
+      imgUrl = '../img/rasporedSlike/savremeneRacunarskeTehnologije/PrvaGodina.png';
+      break;
+    case 'srt2':
+      imgUrl = '../img/rasporedSlike/savremeneRacunarskeTehnologije/DrugaGodina.png';
+      break;
+    case 'srt3':
+      imgUrl = '../img/rasporedSlike/savremeneRacunarskeTehnologije/TrecaGodina.png';
+      break;
+    case 'gi1':
+      imgUrl = '../img/rasporedSlike/gradjevinskoInzenjerstvo/PrvaGodina.png';
+      break;
+    case 'gi2':
+      imgUrl = '../img/rasporedSlike/gradjevinskoInzenjerstvo/DrugaGodina.png';
+      break;
+    case 'gi3':
+      imgUrl = '../img/rasporedSlike/gradjevinskoInzenjerstvo/TrecaGodina.png';
+      break;
+    case 'zzs1':
+      imgUrl = '../img/rasporedSlike/zastitaZivotneSredine/PrvaGodina.png';
+      break;
+    case 'zzs2':
+      imgUrl = '../img/rasporedSlike/zastitaZivotneSI/DrugaGodina.png';
+      break;
+    case 'zzs3':
+      imgUrl = '../img/rasporedSlike/zastitaZivotneSI/TrecaGodina.png';
+      break;
+  }
+
+  $scope.imgUrl = imgUrl;
+})

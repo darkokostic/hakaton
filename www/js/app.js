@@ -23,6 +23,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'PocetnaCtrl'
   })
 
+  .state('raspored-single', {
+    url: '/raspored-single/:idSmer',
+    templateUrl: 'templates/raspored-single.html',
+    controller: 'RasporedSingleCtrl'
+  })
+
   .state('upis', {
     url: '/upis',
     templateUrl: 'templates/upis.html',
