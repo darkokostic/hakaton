@@ -98,7 +98,7 @@
 .oNama p {
 	text-align: left;
 	font-family: LatoRegular;
-	font-size: 12px;
+	font-size: 16px;
 	color: #525252;
 }
 .oNamaBottom {
@@ -132,7 +132,7 @@
 .upis p {
   text-align: left;
 	font-family: LatoRegular;
-	font-size: 12px;
+	font-size: 16px;
 	color: #525252;
 }
 .upis h3 {
@@ -184,7 +184,7 @@
   font-weight: bold;
 }
 .studijeSingle p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* FONTS */
