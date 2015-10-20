@@ -4,63 +4,63 @@
         "Meseci": [
           {
             "name": "Januar",
-            "url": "../img/kalendar/januar.png"
+            "url": "file:///android_asset/www/img/kalendar/januar.png"
           },
           {
             "name": "Februar",
-            "url": "../img/kalendar/februar.png"
+            "url": "file:///android_asset/www/img/kalendar/februar.png"
           },
           {
             "name": "Mart",
-            "url": "../img/kalendar/mart.png"
+            "url": "file:///android_asset/www/img/kalendar/mart.png"
           },
           {
             "name": "April",
-            "url": "../img/kalendar/april.png"
+            "url": "file:///android_asset/www/img/kalendar/april.png"
           },
           {
             "name": "Maj",
-            "url": "../img/kalendar/maj.png"
+            "url": "file:///android_asset/www/img/kalendar/maj.png"
           },
           {
             "name": "Jun",
-            "url": "../img/kalendar/jun.png"
+            "url": "file:///android_asset/www/img/kalendar/jun.png"
           },
           {
             "name": "Jul",
-            "url": "../img/kalendar/jul.png"
+            "url": "file:///android_asset/www/img/kalendar/jul.png"
           },
           {
             "name": "Avgust",
-            "url": "../img/kalendar/avgust.png"
+            "url": "file:///android_asset/www/img/kalendar/avgust.png"
           },
           {
             "name": "Septembar",
-            "url": "../img/kalendar/septembar.png"
+            "url": "file:///android_asset/www/img/kalendar/septembar.png"
           },
           {
             "name": "Oktobar",
-            "url": "../img/kalendar/oktobar.png"
+            "url": "file:///android_asset/www/img/kalendar/oktobar.png"
           },
           {
             "name": "Novembar",
-            "url": "../img/kalendar/novembar.png"
+            "url": "file:///android_asset/www/img/kalendar/novembar.png"
           },
           {
             "name": "Decembar",
-            "url": "../img/kalendar/decembar.png"
+            "url": "file:///android_asset/www/img/kalendar/decembar.png"
           }
         ],
         "Legenda": [
           {
             "name": "Legenda",
-            "url": "../img/kalendar/legenda.png"
+            "url": "file:///android_asset/www/img/kalendar/legenda.png"
           }
         ],
         "Ispitni_rokovi": [
           {
             "name": "Ispitni rokovi",
-            "url": "../img/kalendar/ispitni_rokovi.png"
+            "url": "file:///android_asset/www/img/kalendar/ispitni_rokovi.png"
           }
         ]
       }
