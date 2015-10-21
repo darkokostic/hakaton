@@ -186,6 +186,9 @@
 .studijeSingle p {
   font-size: 16px;
 }
+.raspored {
+  width: 100%;
+}
 
 /* FONTS */
 @font-face {
