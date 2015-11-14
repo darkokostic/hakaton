@@ -1,0 +1,67 @@
+{
+  "Kalendar":
+      {
+        "Meseci": [
+          {
+            "name": "Januar",
+            "url": "file:///android_asset/www/img/kalendar/januar.png"
+          },
+          {
+            "name": "Februar",
+            "url": "file:///android_asset/www/img/kalendar/februar.png"
+          },
+          {
+            "name": "Mart",
+            "url": "file:///android_asset/www/img/kalendar/mart.png"
+          },
+          {
+            "name": "April",
+            "url": "file:///android_asset/www/img/kalendar/april.png"
+          },
+          {
+            "name": "Maj",
+            "url": "file:///android_asset/www/img/kalendar/maj.png"
+          },
+          {
+            "name": "Jun",
+            "url": "file:///android_asset/www/img/kalendar/jun.png"
+          },
+          {
+            "name": "Jul",
+            "url": "file:///android_asset/www/img/kalendar/jul.png"
+          },
+          {
+            "name": "Avgust",
+            "url": "file:///android_asset/www/img/kalendar/avgust.png"
+          },
+          {
+            "name": "Septembar",
+            "url": "file:///android_asset/www/img/kalendar/septembar.png"
+          },
+          {
+            "name": "Oktobar",
+            "url": "file:///android_asset/www/img/kalendar/oktobar.png"
+          },
+          {
+            "name": "Novembar",
+            "url": "file:///android_asset/www/img/kalendar/novembar.png"
+          },
+          {
+            "name": "Decembar",
+            "url": "file:///android_asset/www/img/kalendar/decembar.png"
+          }
+        ],
+        "Legenda": [
+          {
+            "name": "Legenda",
+            "url": "file:///android_asset/www/img/kalendar/legenda.png"
+          }
+        ],
+        "Ispitni_rokovi": [
+          {
+            "name": "Ispitni rokovi",
+            "url": "file:///android_asset/www/img/kalendar/ispitni_rokovi.png"
+          }
+        ]
+      }
+  }
